@@ -1,0 +1,47 @@
+.top-nav-container {
+    grid-area: top-nav-bar;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #e0e3e8;
+    position: sticky;
+}
+
+.top-nav-container .links-container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 65px;
+}
+
+.top-nav-container .links-container .nav-items a{
+    padding: 0 14px;
+    color: #000 !important;
+    font-weight: 700;
+    font-size: 12.47pt;
+    text-decoration: none;
+    transition: .1s ease-in-out;
+    padding-bottom: 5px;
+}
+
+
+.top-nav-container .links-container .nav-items a:hover {
+    border-bottom: 3px solid #000;
+
+}
+
+.top-nav-container .links-container .create-account-container {
+    margin-left: 590px;
+    color: #0060df;
+    font-weight: 700;
+    font-size: 11pt;
+    border: 2px solid #0060df;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    text-align: center;
+}
+
+.top-nav-container .links-container .create-account-container:hover {
+    background-color: #0060df;
+    color: #fff;
+}
